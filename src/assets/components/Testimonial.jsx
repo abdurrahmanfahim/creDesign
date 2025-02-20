@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import Card from "../Card";
+import Card from "../../Card";
 import Heading from "./Heading";
 import clientAvatar1 from '../assets/images/Image.png'
 import clientAvatar2 from '../assets/images/Image (1).png'
