@@ -9,7 +9,7 @@ import icon6 from "../assets/images/Icon (5).svg";
 import icon7 from "../assets/images/Icon (6).svg";
 import icon8 from "../assets/images/Icon (7).svg";
 
-import Card from "../Card";
+import Card from "../components/Card"
 import Heading from "./Heading";
 
 const Service = () => {

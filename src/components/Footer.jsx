@@ -72,7 +72,7 @@ const Footer = () => {
               </div>
               <div className="phone">
                 <i>
-                  <img src={locationIcon} alt={locationIcon} />
+                  <img src={phoneIcon} alt={phoneIcon} />
                 </i>
                 <span className="f-sp">
                   +8801613529163

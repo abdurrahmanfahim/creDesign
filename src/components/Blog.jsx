@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import Card from "../Card";
+import Card from "../components/Card"
 import Heading from "./Heading";
 import blogImg1 from "../assets/images/Rectangle 41.jpg";
 import blogImg2 from "../assets/images/Rectangle 41-1.jpg";

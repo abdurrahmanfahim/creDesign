@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import Card from "../Card";
+import Card from "../components/Card"
 import Heading from "./Heading";
 import galleryImg1 from '../assets/images/Placeholder.jpg'
 import galleryImg2 from '../assets/images/Placeholder (1).jpg'

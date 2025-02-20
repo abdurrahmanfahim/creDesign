@@ -1,7 +1,7 @@
 // import React from 'react'
 
-import Card from "./Card";
-import Heading from "./assets/components/Heading";
+import Card from "../components/Card"
+import Heading from "./Heading";
 
 const Resume = () => {
   return (
