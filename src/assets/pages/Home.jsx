@@ -4,6 +4,7 @@ import About from "../../components/About"
 import Banner from "../../components/Banner"
 import Blog from "../../components/Blog"
 import Contact from "../../components/Contact"
+import Footer from "../../components/Footer"
 import Navbar from "../../components/Navbar"
 import Partners from "../../components/Partners"
 import Portfolio from "../../components/Portfolio"
@@ -14,6 +15,9 @@ import Resume from "../../Resume"
 const Home = () => {
   return (
     <>
+
+        {/* Repository Link: https://github.com/abdurrahmanfahim/creDesign.git */}
+
         <Navbar />
         <Banner />
         <About />
@@ -24,6 +28,7 @@ const Home = () => {
         <Partners />
         <Blog />
         <Contact />
+        <Footer />
     </>
   )
 }

@@ -1,5 +1,7 @@
 // import React from 'react'
 
+import Button from "./Button"
+
 const Footer = () => {
   return (
     <>
@@ -16,7 +18,7 @@ const Footer = () => {
             At vero eos et accusamus et iusto odio dign ducimus qui blanditiis praesentium volup deleniti atque corrupti quos dolores et molestias excepturi sint occaecati 
             </p>
             <span>
-              md.abdur.rahman.fahim@gmail.com
+            ar.fahim.dev@gmail.com
             </span>
           </div>
           <div className="link-part">
@@ -25,10 +27,11 @@ const Footer = () => {
                 Explore Link
               </div>
               <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><Button style={'footerNavLink'} href={'#'} content={'About'} /></li>
+                <li><Button style={'footerNavLink'} href={'#'} content={'Resume'} /></li>
+                <li><Button style={'footerNavLink'} href={'#'} content={'Portfolio'} /></li>
+                <li><Button style={'footerNavLink'} href={'#'} content={'Blog'} /></li>
+
               </ul>
             </div>
             <div className="services">
@@ -36,10 +39,10 @@ const Footer = () => {
                 My Services
               </div>
               <ul>
-                <li><a href="#">UI/UX Design</a></li>
-                <li><a href="#">Mobile App</a></li>
-                <li><a href="#">Graphics Design</a></li>
-                <li><a href="#">Web Developer</a></li>
+                <li><Button style={'footerNavLink'} href={'#'} content={'UI/UX Design'} /></li>
+                <li><Button style={'footerNavLink'} href={'#'} content={'Mobile App'} /></li>
+                <li><Button style={'footerNavLink'} href={'#'} content={'Graphics Design'} /></li>
+                <li><Button style={'footerNavLink'} href={'#'} content={'Web Developer'} /></li>
               </ul>
             </div>
             <div className="follow">

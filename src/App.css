@@ -806,7 +806,7 @@ h5
 }
 
 
-#footer ul li a
+.footerNavLink
 {
   color: #FFF;
   font-size: 1rem;
@@ -815,7 +815,7 @@ h5
   line-height: 1.7rem;
 }
 
-#footer ul li a:hover
+.footerNavLink:hover
 {
   color: #FF6B00;
 }
