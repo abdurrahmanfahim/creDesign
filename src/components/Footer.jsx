@@ -1,6 +1,13 @@
 // import React from 'react'
 
 import Button from "./Button"
+import logo from '../assets/images/logo2.png'
+import faceBookIcon from '../assets/images/Facebook Icon.svg'
+import TweeterIcon from '../assets/images/Vector.svg'
+import dribbleIcon from '../assets/images/dribbble (2) 1.svg'
+import behanceIcon from '../assets/images/behance (2) 1.svg'
+import locationIcon from '../assets/images/Icon-l.svg'
+import phoneIcon from '../assets/images/Icon-p.svg'
 
 const Footer = () => {
   return (
@@ -11,7 +18,7 @@ const Footer = () => {
           <div className="logo-part">
             <div className="logo">
               <a href="#">
-                <img src="/public/images/logo2.png" alt="logo" />
+                <img src={logo} alt={logo} />
               </a>
             </div>
             <p className="para">
@@ -50,14 +57,14 @@ const Footer = () => {
                 My Services
               </div>
               <ul className="links">
-                <li><a href="#"><img src="/public/images/Facebook Icon.svg" alt="Icon" /></a></li>
-                <li><a href="#"><img src="/public/images/Vector.svg" alt="Icon" /></a></li>
-                <li><a href="#"><img src="/public/images/dribbble (2) 1.svg" alt="Icon" /></a></li>
-                <li><a href="#"><img src="/public/images/behance (2) 1.svg" alt="Icon" /></a></li>
+                <li><a href="#"><img src={faceBookIcon} alt={faceBookIcon} /></a></li>
+                <li><a href="#"><img src={TweeterIcon} alt={TweeterIcon} /></a></li>
+                <li><a href="#"><img src={dribbleIcon} alt={dribbleIcon} /></a></li>
+                <li><a href="#"><img src={behanceIcon} alt={behanceIcon} /></a></li>
               </ul>
               <div className="location">
                 <i>
-                  <img src="/public/images/Icon-l.svg" alt="Icon" />
+                  <img src={locationIcon} alt={locationIcon} />
                 </i>
                 <span className="f-sp">
                   202 Dog Hill Lane Beloit, KS 67420
@@ -65,7 +72,7 @@ const Footer = () => {
               </div>
               <div className="phone">
                 <i>
-                  <img src="/public/images/Icon-p.svg" alt="Icon" />
+                  <img src={locationIcon} alt={locationIcon} />
                 </i>
                 <span className="f-sp">
                   +8801613529163
