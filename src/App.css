@@ -1,0 +1,877 @@
+* 
+{
+  padding: 0;
+  margin: 0;
+  color: #101010;
+}
+
+body 
+{
+  font-family: Jost;
+  background: #fff;
+}
+
+ul,
+ol
+{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+small
+{
+  display: flex;
+  align-items: center;
+  gap: 0.62rem;
+}
+
+.circle-1
+{
+  border: 0.1rem solid #101010;
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-2
+{
+  border: 0.1rem solid #101010;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+}
+
+.headingMain
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.12rem;
+}
+
+small .sm-heading
+{
+  color: var(--Black, #101010);
+  font-family: Jost;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+small img
+{
+  position: relative;
+  top: .35rem;
+  margin-right: 0.62rem;
+}
+
+
+h2 
+{
+  flex-shrink: 0;
+  color: var(--Black, #101010);
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.575rem;
+  text-transform: uppercase;
+}
+
+.para
+{
+  width: 40.3125rem;
+  color: var(--Later-Text, #606060);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+  margin-bottom: 3.12rem;
+}
+
+/* Navbar Start */
+
+nav 
+{
+  width: 100%;
+  margin: 1.56rem 0;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.wrap 
+{
+  display: flex;
+}
+
+nav .wrap 
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul 
+{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav ul li 
+{
+  color: var(--Black, #101010);
+  font-family: Jost;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;   
+  cursor: pointer;
+}
+
+nav ul li:hover
+{
+  color: #FF6B00;
+}
+
+.btnMain
+{
+  color: #FFF;
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  padding: 0.9375rem 2rem;
+  border-radius: 0.375rem;
+  background: #FF6B00;
+  border: #FF6B00 1px solid;
+  box-sizing: border-box;
+  transition: all linear 0.4s;
+}
+
+.btnMain:hover
+{
+  background: transparent;
+  border: #FF6B00 1px solid;
+  color: #FF6B00;
+}
+
+/* Navbar end */
+
+/*#Banner Start */
+
+#banner
+{
+  padding: 0 auto;
+}
+
+#banner .bg 
+{
+  height: 53.0625rem;
+  background: var(--Gradint-Color, linear-gradient(256deg, rgba(255, 195, 152, 0.20) 26.56%, rgba(255, 234, 190, 0.30) 100%));
+  width: 100%;
+}
+
+#banner .wrap 
+{
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 
+{
+  width: 42.375rem;
+  color: var(--Black, #101010);
+  font-family: Jost;
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.9375rem;
+  margin-top: 0.63rem;
+  margin-bottom: 2.88rem;
+}
+
+#banner .right 
+{
+  width: 37.9245rem;
+  height: 53.0625rem;
+  background: url("./assets/images/fahim-avator.jpg");
+  background-position: center 0px;
+}
+
+#banner .left p 
+{
+  line-height: 1.9125rem;
+}
+
+/* Banner End */
+
+/* About Start */
+
+#about 
+{
+  padding: 8rem 0 0 0;
+}
+
+#about .wrap 
+{
+  align-items: center;
+  justify-content: space-between;
+}
+
+#about .wrap .left
+{
+  width: 35rem;
+  height: 48rem;
+  background: url('./assets/images/fahim-art-1.jpg');
+  background-position: center 0px;
+  background-size: cover;
+}
+
+#about .archive ul 
+{
+  display: flex;
+  gap: 0.63rem;
+  margin-bottom: 3.13rem;
+}
+
+#about .archive
+{
+  display: flex;
+  gap: 1.87rem;
+}
+
+#about .archive ul .a-txt span
+{
+  color: #FF6B00;
+  font-family: "Fira Sans";
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 1.96875rem */
+}
+
+h3
+{
+  flex-shrink: 0;
+  color: var(--Black, #101010);
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.575rem;
+  padding: 0.62rem 0 1.25rem 0;
+  width: 24.5rem;
+}
+
+#about .archive ul .a-txt p
+{
+  color: #101010;
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  margin: 0;
+  width: 100%;
+}
+
+.work 
+{
+  color: #000;
+  font-family: Alef;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.work:last-of-type
+{margin-bottom: 3.12rem;}
+
+
+.work>img
+{
+  padding-right: 0.62rem;
+}
+
+/* About Start */
+
+/* services Start */
+
+#services 
+{
+  padding: 8.25rem 0 4.6rem;
+}
+
+
+.ser
+{
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0.52rem;
+}
+
+#services .card-box
+{
+  flex-wrap: wrap;
+  column-gap: 1.5rem;
+  row-gap: 1.87rem;
+  justify-content: space-between;
+}
+
+.iconCard 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 19.5rem;
+  height: 18.9375rem;
+  padding: 2.87rem 1.87rem 3.12rem;
+  border-radius: 0.375rem;
+  border: 1px solid #FFE2D1;
+  background: #fff;
+  cursor: pointer;
+}
+
+.iconCard:hover
+{
+  background: #FFF5EF;
+  border: 1px solid #FFF5EF;
+}
+
+.iconCard img 
+{
+  width: 3.4375rem;
+  height: 3.4375rem;
+  margin-bottom: 1.56rem;
+}
+
+h4
+{
+  color: var(--Black, #101010);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.95rem;
+}
+
+.box-p
+{
+  text-align: center;
+  margin-top: 0.81rem;
+  color: var(--Later-Text, #606060);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+/* Services End */
+
+/* Resume Start */
+
+#resume 
+{
+  background: #FFF5EF;
+  padding: 4.25rem 0 4.19rem;
+  margin-top: 4.6rem;
+}
+
+#resume .wrap
+{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#resume .row
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+h5 
+{
+  color: #1E1E1E;
+  font-family: Jost;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.95rem;
+  align-self: stretch;
+}
+
+.resumeCard
+{
+  width: 26.5rem;
+  height: 11.8125rem;
+  box-sizing: border-box;
+  border-radius: 0.375rem;
+  border: 0px solid #5C5C5C;
+  background: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 1.87rem 1.75rem 1.88rem 2.63rem;
+}
+
+#resume h6 
+{
+  color: #000;
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  margin-bottom: 0.62rem;
+}
+
+#resume .card span
+{
+  color: var(--Later-Text, #606060);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+#resume .card p{
+  color: var(--Later-Text, #606060);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+/* Resume End */
+
+/* Portfolio Start */
+
+#portfolio 
+{
+  padding: 8.25rem 0 0;
+}
+
+#portfolio .gallery 
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.galleryImg
+{
+  width: 26.5rem;
+  height: 32.125rem;
+  border-radius: 0.375rem;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  transition: all linear 0.1s;
+}
+
+.galleryImg:hover
+{
+  scale: 1.1;
+}
+
+/* Portfolio End */
+
+/* Testimonial Start */
+
+#testimonial
+{
+  padding: 8.44rem 0 0;
+}
+
+#testimonial .card-box
+{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.clientCard ul
+{
+  display: flex;
+  gap: 1.56rem;
+
+}
+
+.clientCard{
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 1.87rem 3.87rem 1.87rem;
+  box-sizing: border-box;
+  width: 26.5rem;
+  height: 17.4375rem;
+  border-radius: 0.5rem;
+  background: rgb(255, 245, 239, 0.5);
+}
+
+.clientCard:hover
+{
+  background: #FFF5EF;
+}
+
+.clientCard ul span
+{
+  color: var(--Later-Text, #606060);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+  display: block;
+}
+
+.clientCard ul span.name
+{
+  color: var(--Black, #101010);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.95rem;
+}
+
+.clientCard .para 
+{
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 0.62rem;
+}
+
+/* Testimonial End */
+
+/* Partner Start */
+
+#partner 
+{
+  padding-top: 11.15rem;
+  
+}
+
+#partner .card-box
+{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.partnerCard
+{
+  box-sizing: border-box;
+  width: 12.5rem;
+  height: 8.125rem;
+  border-radius: 0.375rem;
+  border: 1px solid #FFE2D1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partnerCard img 
+{
+  width: 4.25675rem;
+  height: 4.375rem;
+}
+
+/* Partner End */
+
+/* Blog Start */
+
+#blog 
+{
+  padding-top: 8.46rem;
+}
+
+#blog .gallery
+{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.cardBlog
+{
+  width: 26.5rem;
+  height: 32.3125rem;
+  border-radius: 0.375rem;
+  border: 1px solid #FFE2D1;
+}
+
+.cardBlog img
+{
+  width: 26.5rem;
+  height: 18.75rem;
+  border-radius: 0.375rem 0.375rem 0rem 0rem;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+#blog .gallery span
+{
+  color: var(--Paragraph-color, #6F6B80);
+  font-family: Urbanist;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+#blog .gallery p
+{
+  color: var(--Black, #101010);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.95rem;
+  margin: 1.25rem 0 1.62rem;
+}
+
+#blog .gallery a
+{
+  color: var(--Brand-Color, #FF6B00);
+  font-family: Urbanist;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.625rem;
+}
+
+#blog .gallery .txt
+{
+  margin: 1.87rem 1.87rem 1.62rem;
+}
+
+/* Blog End */
+
+/* Contact Start */
+
+#contact 
+{
+  padding: 8.46rem 0 8.12rem;
+}
+
+#contact form
+{
+  display: flex;
+  column-gap: 1.5rem;
+  row-gap: 1.88rem;
+  flex-wrap: wrap;
+}
+
+.contactFormInput
+{
+  width: 26.5rem;
+  height: 4.375rem;
+  border-radius: 0.375rem;
+  border: 1px solid #FFE2D1;
+  padding: 1.31rem 1.25rem;
+  box-sizing: border-box;
+}
+
+.contactFormInput::placeholder,
+.contactFormTAria::placeholder
+{
+  color: var(--Later-Text, #606060);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+.contactFormTAria
+{
+  width: 54.5rem;
+  height: 12.125rem;
+  border-radius: 0.375rem;
+  border: 1px solid #FFE2D1;
+  padding: 1.31rem 1.25rem;
+  box-sizing: border-box;
+  resize: none;
+}
+
+#contact .contacts
+{
+  display: flex;
+  flex-direction: column;
+  gap: 3.56rem;
+}
+
+#contact .contacts ul
+{
+  display: flex;
+  gap: 1.25rem;
+}
+
+#contact .contacts ul li:first-of-type
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.625rem;
+  height: 3.625rem;
+  border-radius: 0.375rem;
+  background: #FFF5EF;
+}
+
+#contact .contacts ul li:first-of-type:hover
+{
+  background: #fae7db;
+}
+
+#contact .contacts ul li span.addr
+{
+  color: var(--Black, #101010);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.95rem;
+}
+
+#contact .contacts ul li span
+{
+  width: 18.125rem;
+  color: var(--Later-Text, #606060);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+  display: block;
+}
+
+/* Contact End */
+
+/* Footer Start */
+
+#footer
+{
+  padding: 8.5rem 0 2.25rem;
+  background: var(--Black, #101010);
+  color: #fff;
+}
+
+#footer .f-header
+{
+  color: #FFF;
+  font-size: 1.3125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+#footer .para
+{
+  width: 18.75rem;
+  color: #FFF;
+  margin-bottom: 0;
+  margin: 2.25rem 0 1.87rem;
+}
+
+#footer .logo-part 
+{
+  width: 25rem;
+  margin-right: 6rem;
+}
+
+#footer .logo-part span
+{
+  color: #FFF;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.95rem;
+}
+
+#footer .link-part
+{
+  display: flex;
+  gap: 4.56rem;
+}
+
+
+#footer ul 
+{
+  width: 14rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 3.56rem 0 0;
+}
+
+
+#footer ul li a
+{
+  color: #FFF;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+#footer ul li a:hover
+{
+  color: #FF6B00;
+}
+
+#footer ul.links
+{
+  width: 14rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  margin-bottom: 2.38rem;
+}
+
+#footer ul.links li a
+{
+  width: 2.625rem;
+  height: 2.625rem;
+  background: #FF6B00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.50rem;
+}
+
+#footer .location,
+#footer .phone
+{
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 1.25rem;
+}
+
+#footer span.f-sp
+{
+  width: 11rem;
+  color: #FFF;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7rem;
+  margin-left: 0.74rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer End */
+
+
